@@ -1,0 +1,27 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*Navbar*/
+.navbar-nav .nav-link {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-right: 40px;
+}
+
+.navbar-nav .nav-link:hover{
+    color: black;
+}
+
+/*Navbar transition*/
+.bg-white{
+    background-color: white;
+    transition: all 1s ease; 
+}
