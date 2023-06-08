@@ -111,4 +111,38 @@ html{
       border-bottom-color: rgb(57, 181, 74);
       border-left-color: rgb(57, 181, 74);
     color: #39b54a;
-  }
+}
+
+
+
+/*About me*/
+#about-me{
+    height: 100vh;
+    background: linear-gradient(119deg, #8b8a8a 0%, rgba(13,42,37,1) 100%);
+    text-align: center;
+}
+
+#subtitle-about{
+    font-size: 1.2rem;
+    line-height: 1.333;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    margin-top: 10vh;
+    margin-bottom: 0;
+    color: black;
+}
+
+#title-about{
+    font-size: 3em;
+    line-height: 1.25;
+    color: white;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#hr-about{
+    color: white;
+    font-size: 5px;
+    margin: 20px auto;
+}
