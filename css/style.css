@@ -198,3 +198,15 @@ html{
     -moz-box-shadow: -2px 10px 42px 0px rgba(0,0,0,0.75);
     height: 300px;
 }
+
+.icon-box{
+    width: 30px;
+    height: 30px;
+    margin-top: 100px;
+}
+
+.subtitle-boxes{
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: bold;
+}
