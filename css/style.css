@@ -264,10 +264,10 @@ html{
 
 /*CONTACT*/
 #contact{
-    height: 150vh;
     background-image: url("../imageS/brennan-burling-ay53qag90W8-unsplash.jpg");
     background-size: cover;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 #subtitle-contact{
@@ -332,3 +332,43 @@ html{
     width: 86%;
 }
 
+.btn-form{
+    display: inline-block;
+    font-family: "montserrat-medium", sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    height: 5.4rem;
+    line-height: calc(5.4rem - .4rem);
+    padding: 0 6rem;
+    margin: 20px .3rem 1.2rem 0;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    background-color: transparent;
+    border: .2rem solid #c5c5c5;
+}
+
+.btn-form:hover{
+    color: black;
+    background-color: white;
+}
+
+#subtitle-form{
+    font-size: 1.2rem;
+    line-height: 1.333;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    margin-top: 25vh;
+    margin-bottom: 0;
+    color: white;
+}
+
+#text-form{
+    color: white;
+    margin-top: 20px;
+}
