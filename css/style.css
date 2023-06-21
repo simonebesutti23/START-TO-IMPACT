@@ -261,3 +261,74 @@ html{
     margin-bottom: 0;
     color: white;
 }
+
+/*CONTACT*/
+#contact{
+    height: 150vh;
+    background-image: url("../imageS/brennan-burling-ay53qag90W8-unsplash.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+#subtitle-contact{
+    font-size: 1.2rem;
+    line-height: 1.333;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    margin-top: 15vh;
+    margin-bottom: 0;
+    color: white;
+}
+
+#title-contact{
+    font-size: 3em;
+    line-height: 1.25;
+    color: white;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.row-form{
+    text-align: center;
+    width: 100%;
+    margin: 70px auto;
+}
+
+#form-title{
+    font-size: 3em;
+    line-height: 1.25;
+    color: white;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+}
+
+#form{
+    text-align: left;
+    margin-top: 30px;
+    width: 90%;
+}
+
+.form-input{
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 40%;
+    margin-right: 30px;
+}
+
+.form-input:focus{
+    border-color:white;
+    outline:0;
+    -webkit-box-shadow:inset 0 0 0px rgba(0,0,0,0.075),0 0 0px white;
+    box-shadow:inset 0 0px 0px rgba(0,0,0,0.075),0 0 0px white;
+}
+
+.input-2{
+    margin-top: 20px;
+    width: 86%;
+}
+
