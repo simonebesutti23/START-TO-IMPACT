@@ -1,3 +1,5 @@
+
+
 var nav = document.querySelector('nav');
 window.addEventListener('scroll', function() {
     if (window.pageYOffset > 25){
@@ -14,3 +16,5 @@ var typed = new Typed(".auto-input" , {
     backSpeed: 100,
     loop: true
 })
+
+
