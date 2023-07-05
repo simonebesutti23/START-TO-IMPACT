@@ -21,16 +21,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#background-image">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About me</a>
+                            <a class="nav-link" href="#about-me">About me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacts</a>
+                            <a class="nav-link" href="#contact">Contacts</a>
                         </li>
                     </ul>
                 </div>
@@ -50,8 +50,8 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 home-content__buttons">
-                    <a class="btn btn--stroke">Start a project</a>
-                    <a class="btn btn--stroke">More about me</a>
+                    <a href="#form" class="btn btn--stroke">Start a project</a>
+                    <a href="#about-me" class="btn btn--stroke">More about me</a>
                 </div>
             </div>
         </div>
@@ -146,11 +146,11 @@
                 <div class="col-lg-7">
                     <h1 id="form-title">Fill the form. <br>
                     It's easy.</h1>
-                    <form action="" id="form">
-                        <input class="form-input" id="fullName" type="text" placeholder="Full name" required>
-                        <input class="form-input input-2" id="emailId" type="email" placeholder="Email" required>
-                        <textarea class="form-input input-2" id="message" cols="30" rows="10" placeholder="Write an idea for your project!" required></textarea>
-                        <button class="btn-form btn-form-2">Send</button>
+                    <form method="POST" id="form">
+                        <input class="form-input" name="fullName" id="fullName" type="text" placeholder="Full name" required>
+                        <input class="form-input input-2" name="email" id="emailId" type="email" placeholder="Email" required>
+                        <textarea class="form-input input-2" name="text" id="message" cols="30" rows="10" placeholder="Write an idea for your project!" required></textarea>
+                        <button class="btn-form btn-form-2" id="submit-btn">Send</button>
                     </form>
                 </div>
                 <div class="col-lg-5">
@@ -167,7 +167,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <a href="https://www.instagram.com/simonebesutti/"><img class="footer-social" src="images/instagram.svg" alt=""></a>
-                    <a href="https://api.whatsapp.com/send?phone=+39 334 985 0340&text=Ciao, ti contatto perchè vorrei parlarti di un progetto!"><img class="footer-social" src="images/whatsapp.svg" alt=""></a>
+                    <a href="https://api.whatsapp.com/send?phone=+39 3488653600&text=Ciao, ti contatto perchè vorrei parlarti di un progetto!"><img class="footer-social" src="images/whatsapp.svg" alt=""></a>
                     <a href=""><img class="footer-social" src="images/linkedin.svg" alt=""></a>
                     <a href="https://github.com/simonebesutti23"><img class="footer-social" src="images/github.svg" alt=""></a>
                 </div>
@@ -183,6 +183,7 @@
 
     
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.min.js" integrity="sha512-Pv/SmxhkTB6tWGQWDa6gHgJpfBdIpyUy59QkbshS1948GRmj6WgZz18PaDMOqaEyKLRAvgil7sx/WACNGE4Txw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="js/main.js"></script>
